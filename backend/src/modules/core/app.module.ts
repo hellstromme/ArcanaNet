@@ -8,6 +8,7 @@ import { GamesModule } from '../games/games.module';
 import { SheetsModule } from '../sheets/sheets.module';
 import { DiceModule } from '../dice/dice.module';
 import { PluginsModule } from '../plugins/plugins.module';
+import { IdentityModule } from '../identity/identity.module';
 
 @Module({
   imports: [
@@ -20,6 +21,7 @@ import { PluginsModule } from '../plugins/plugins.module';
     SheetsModule,
     DiceModule,
     PluginsModule,
+    IdentityModule,
   ],
   controllers: [CoreController],
   providers: [CoreService],
